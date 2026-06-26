@@ -14,6 +14,7 @@ A simulated console banking application that mimics real-world banking operation
   * Balance inquiry and account detail display.
 * **Concepts Used:** Classes and Objects
 ### 2. Calculator
+
 A robust command-line calculator capable of handling basic arithmetic and standard algebraic operations.
 * **Key Features:**
   * Basic operations: Addition, Subtraction, Multiplication, Division.
@@ -21,6 +22,16 @@ A robust command-line calculator capable of handling basic arithmetic and standa
   * Division-by-zero error handling.
 * **Concepts Used:** Functions, `switch-case` control blocks, Input validation.
 
+### 3. Digital Clock
+
+A console-based, **24-hour format digital clock** written in C++ that allows users to set a custom starting time. The application continuously updates and displays the time in real-time (`HH:MM:SS`) using an infinite loop, built-in time delays, and automated screen clearing for a realistic ticking effect. 
+
+* **Key Features**
+* Custom Start Time: Prompts the user to input the initial hours, minutes, and seconds.
+* Input Validation: Ensures the entered time conforms to realistic 24-hour constraints.
+* Dynamic UI:* Implements custom console coloring and clear-screen commands to simulate a live digital display.
+* **Concepts Used:** Functions, control blocks, Input validation, I/O Manipulation, System and Time Management(Sleep(); system(cls); system("color");)
+    
 ### 3. Restaurant Menu
 An interactive digital menu calculator system.
 * **Key Features:**
