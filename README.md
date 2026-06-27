@@ -36,8 +36,17 @@ A console-based, **24-hour format digital clock** written in C++ that allows use
 An interactive digital menu calculator system.
 * **Key Features:**
    * Basic operations: Addition, Subtraction, Multiplication, Division.
+ 
+### 4. Registration Login Form
+It provides a secure and user-friendly interface for managing user accounts, handling authentication, and recovering lost credentials seamlessly.
 
----
+* **Key Features:**
+* User Registration: Allows new users to create an account by securely storing their credentials.
+* User Login: Authenticates existing users by verifying their username and password against stored records.
+* Password Recovery (Forgot Password): Enables users to recover or reset their password using a search mechanism.
+* Graceful Exit: Provides a clean termination option from the main menu.
+* **Concepts Used:**
+File Handling (fstream, ifstream), function, Control Flow & Structures
 
 ## Getting Started
 
