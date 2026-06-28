@@ -59,4 +59,6 @@ What will be the length of password? 8
 Apart from alphabates how many numbers do it have? 2
 Apart from alphabates and numbers how many symbolss do it have? 2
 
-PASSWORD GENARATED:  L6#d%P6&*/
+PASSWORD GENARATED:  L6#d%P6&
+
+*/
