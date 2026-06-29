@@ -48,6 +48,16 @@ It provides a secure and user-friendly interface for managing user accounts, han
 * **Concepts Used:**
 File Handling (fstream, ifstream), function, Control Flow & Structures
 
+### 5. Password Generator
+A lightweight, console-based utility to generate customizable, secure passwords based on user-defined lengths and character constraints.
+
+* **Key Features:**
+    * **Input:** Enter the total password length, followed by the specific count of numbers and symbols you want.
+    * **Output:** Instantly generates an interleaved, unpredictable string mixing alphabets, numbers, and symbols.
+    * 
+* **Concepts Used:**
+Procedural Programming, Functions with Default Arguments (num=0, symb=0), Pseudo-Random Number Generation (srand(), rand(), time()), String Manipulation & Interleaving, Standard I/O Streams (cin, cout), Control Flow (while loops, if conditionals) 
+
 ## Getting Started
 
 ### Prerequisites
@@ -86,7 +96,7 @@ Using `g++`, run:
 
 ---
 
-## 💻 Technical Concepts Demonstrated
+##  Technical Concepts Demonstrated
 
 * **Object-Oriented Programming (OOP):** Encapsulation, inheritance, and abstraction.
 * **Data Persistence:** Using file streams to save application states.
