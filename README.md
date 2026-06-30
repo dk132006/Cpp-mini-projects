@@ -58,6 +58,25 @@ A lightweight, console-based utility to generate customizable, secure passwords 
 * **Concepts Used:**
 Procedural Programming, Functions with Default Arguments (num=0, symb=0), Pseudo-Random Number Generation (srand(), rand(), time()), String Manipulation & Interleaving, Standard I/O Streams (cin, cout), Control Flow (while loops, if conditionals) 
 
+### 7. System Security
+
+A lightweight console-based authentication system that allows users to securely register a new profile, log in using their credentials, and update their existing passwords. It handles real-time user validation by reading and writing profile data to a local storage file.
+
+* **Key Features:**
+
+    * **User Registration:** Dynamically creates unique user profiles with a username, password, and age.
+    * **Secure Authentication:** Validates login credentials against existing records before granting access.
+    * **Profile Verification:** Displays account details upon a successful login.
+    * **Password Management:** Allows users to safely change their password after verifying their old credentials.
+    * **Persistent Storage:** Keeps user data intact even after closing the program.
+
+* **Concepts Used:**
+
+    * **File Handling** (`ifstream`, `ofstream`)
+    * **Object-Oriented Logic & Flow Control** (`switch-case`, `do-while` loops)
+    * **Data Streams & Parsing** (`std::string`, `cin/cout`)
+    * **Conditional Validation**
+      
 ## Getting Started
 
 ### Prerequisites
